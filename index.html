@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desenvolvedor Front-end">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Perilo Júnior | Desenvolvedor front-end</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container_header">
+           <a href="index.html" class="link" aria-label="link para página atual"><img src="img/logo.png" alt="Logo principal" class="logo_header" width="7rem" height="auto"></a>
+           <nav class="menu_header">
+            <button class="button_header" aria-expanded="false" aria-controls="menu" aria-haspopup="true" aria-label="Abrir menu"><span class="menu_icone-header"></span></button>
+            <ul class="list_header" role="menu">
+                <li class="iten_header"><a href="#principal" class="link_iten">Home</a></li>
+                <li class="iten_header"><a href="#sobre" class="link_iten">Sobre</a></li>
+                <li class="iten_header"><a href="#qualificacoes" class="link_iten">Qualificações</a></li>
+                <li class="iten_header"><a href="#servicos" class="link_iten">Serviços</a></li>
+                <li class="iten_header"><a href="#conhecimento" class="link_iten">Conhecimento</a></li>
+                <li class="iten_header"><a href="#projeto" class="link_iten">Projetos</a></li>
+                <li class="iten_header"><a href="#contato" class="link_iten">Contato</a></li>
+            </ul>
+           </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section_main" id="principal">
+            <div class="container_main">
+                
+                <h2 class="titulo_main">Olá, eu sou <span class="destaque">Perilo Júnior </span></h2>
+                <p class="cargo_main">Desenvolvedor Web <br> Analista de Sistemas</p>
+                <p class="descricao_main">Seja bem-vindo! Aqui, você vai poder me conhecer um pouco. Fique à vontade.</p>
+                <a href="#sobre"><button class="button">Conhecer mais</button></a>
+            </div>
+            <nav class="navigation_main">
+                <ul class="list_main">
+                    <li class="iten_main"><a href="https://www.instagram.com/perilojr/" class="link" target="_blank" aria-label="Visitar Instagram de Perilo"><i class="fa-brands fa-instagram icons"></i></a></li>
+                    <li class="iten_main"><a href="https://github.com/perilo815" class="link" target="_blank" aria-label="Visitar Github de Perilo"><i class="fa-brands fa-github icons"></i></a></li>
+                    <li class="iten_main"><a href="https://www.linkedin.com/in/perilojunior/" class="link" target="_blank" aria-label="Visitar Linkedin de Perilo"><i class="fa-brands fa-linkedin icons"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="section_sobre" id="sobre">
+            <img src="img/foto_perfil.jpg" class="foto_perfil" alt="Foto de Perilo Júnior">
+            <div class="container_sobre">
+                <p class="texto_destaque"><img src="img/arrow-rigth.png" class="arrow"> DESENVOLVEDOR WEB</p>
+                <h3 class="titulo_sobre">Desenvolvedor Front-end (HTML, CSS, JavaScript), Git.</h3>
+                <p class="descricao_sobre">Meu nome é Perilo Júnior. Sou estudante de Análise e Desenvolvimento de Sistemas, proativo e com vontade de aprender, quero ampliar meus conhecimentos e desenvolver minhas habidades. Estou buscando minha primeira oportunidade como desenvolvedor web Jr.</p>
+                <p class="descricao_sobre">Para mais informações, o meu curriculo está disponível para download ou podemos conversar através do e-mail disponível abaixo.</p>
+                <div class="container_button">
+                    <a href="document\Perilo Junior Cv.pdf" download="CV Perilo Junior" aria-label="Baixar curriculo de Perilo" class="link">
+                        <button class="button_cv">Baixar CV <i class="fa-solid fa-download"></i></button>
+                    </a>
+                    <button class="button_email botaoCopiar" value="9.1sgtperilo.junior@gmail.com" type="button" aria-label="Copiar email de Perilo">Copiar e-mail</button>
+                </div>
+            </div>
+        </section>
+        <section class="section_destaque">
+            <div class="bloco_destaque bloco-left">
+                <p class="numero"><span class="destaque_numero1">Graduação</span></p>
+                <p class="destaque_descricao">Curso Análise e Desenvolvimento de Sistemas</p>
+            </div>
+            <div class="bloco_destaque bloco-left">
+                <p class="numero"><span class="destaque_numero1">Inglês</span></p>
+                <p class="destaque_descricao">Nível Intermediário para ler, falar e compreender o idioma</p>
+            </div>
+            <div class="bloco_destaque bloco-rigth">
+                <p class="numero"><span class="destaque_numero">+</span> 03</p>
+                <p class="destaque_descricao">Cursos de formação profissional em programação</p>
+            </div>
+            <div class="bloco_destaque bloco-rigth">
+                <p class="numero"><span class="destaque_numero">+</span> 03</p>
+                <p class="destaque_descricao">Projetos pessoais e educativos concluídos</p>
+            </div>
+        </section>
+        <section class="section_qualificacoes" id="qualificacoes">
+            <header class="cabecalho">
+                <h2 class="titulo">Minhas qualificações e experiências</h2>
+            </header>
+            <div class="bloco_button">
+                <button class="button button_educacao educacao" data-id="educacao" aria-label="Qualificações"><i class="fa-solid fa-award"></i> Qualificações</button>
+            </div>
+            <div class="container_qualificacoes">
+                <ul class="lista" id="educacao">
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <img src="img/alura-logo.svg" alt="Curso da alura" class="curso">
+                        </div>
+                        <p class="cargo">Desenvolvedor Front-end</p>
+                        <p class="descricao">Programa Oracle Next Education (Alura/Oracle) para formação profissional de desenvolvedores Front-end. Conteúdo abordado: HTML, CSS, JavaScript, versionamento de projetos com Git. Aplicação de conteúdo, através da criação de projetos.</p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i> 2023</p>
+                        <a href="document/Certificado Alura.pdf" class="link" download="Certificado Alura" aria-label="Certificado Alura">
+                            <button class="button_certificado true" aria-label="Visualizar certificado">Visualizar certificado</button>
+                        </a>
+                    </li>
+                    <li class="li left qualificacao_left">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <img src="img/capgemini.svg" alt="Curso da Capgemini" class="curso1" >
+                        </div>
+                        <p class="cargo">Formação em Cloud AWS</p>
+                        <p class="descricao">Programa Star da Capgemini onde busca capacitar profissionais para atuar na área de programação em nuvem, no sistema Amazon Web Services (AWS)</p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i> Em progresso</p>
+                        <button class="button_certificado button-progresso" disabled>Em progresso</button>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <img src="img/udemy-png.png" alt="Curso Hora de codar" class="curso curso-hora">
+                        </div>
+                        <p class="cargo">Power BI</p>
+                        <p class="descricao">No curso aprendi a conectar fontes de dados, construir modelos relacionais complexos usando ferramentas simples e intuitivas, e projetar dashboards interativos.</p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i> Em progresso</p>
+                        <button class="button_certificado button-progresso" disabled>Em progresso</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_servico" id="servicos">
+            <header class="cabecalho_servico">
+                <h2 class="titulo">Conheça quais são os meus <span class="destaque">serviços</span></h2>
+                <p class="descricao">Metodologias utilizadas nos meus trabalhos.</p>
+            </header>
+            <div class="container_servico">
+                <div class="bloco_servico">
+                    <h3 class="titulo">Desenvolvimento Web</h3>
+                    <p class="descricao">Criação de sites, páginas únicas, e-commerce e outras aplicações. Garantindo uma experiência de qualidade e otimização eficiente do site.</p>
+                </div>
+                <div class="bloco_servico">
+                    <h3 class="titulo">Desenvolvimento Responsivo</h3>
+                    <p class="descricao">Aplicação web responsiva que se ajusta perfeitamente a qualquer dispositivo móvel, proporcionando praticidade e acessibilidade. Além de opções totalmente voltadas para dispositivos móveis.</p>
+                </div>
+                <div class="bloco_servico">
+                    <h3 class="titulo">Experiência do usuário</h3>
+                    <p class="descricao">Soluções direcionadas para um conjunto de componentes e aspectos de um serviço, produto ou sistema, com o propósito de proporcionar uma experiência positiva e satisfatória ao usuário.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section_tech" id="conhecimento">
+            <h2 class="titulo_tech">Conhecimento</h2>
+            <div class="container_tech">
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-html5"></i>
+                    <p class="nome_tech">Html 5</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="nome_tech">Css 3</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p class="nome_tech">JavaScript</p>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_projetos" id="projeto">
+            <h2 class="titulo_projeto">Meus projetos</h2>
+            <div class="container_projetos">
+                <div class="card_projeto">
+                    <img src="img/site-barbearia.jpeg" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">Landing-page</h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/perilo815/barbearia-Alura" class="link" target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                            <a href="https://barbearia-alura-lovat.vercel.app/index.html" class="link" target="_blank" aria-label="Abrir página">
+                                <button class="button site">Site</button>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card_projeto">
+                    <img src="img/game-one-piece.jpeg" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">Game One Piece</h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/perilo815/game-one-piece" class="link" target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                            <a href="https://game-one-piece.vercel.app/" class="link" target="_blank" aria-label="Abrir página">
+                                <button class="button site">Site</button>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card_projeto">
+                    <img src="img/calculadora.jpeg" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">Calculadora</h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/perilo815/calculatorjs" class="link" target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                            <a href="https://calculatorjs-seven.vercel.app/" class="link" target="_blank" aria-label="Abrir página">
+                                <button class="button site">Site</button>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="container_button">
+                <a href="https://github.com/perilo815" class="link" target="_blank" aria-label="Abrir Github">
+                    <button class="botao_github">Abrir Github</button>
+                </a>
+            </div>
+        </section>
+        <section class="section_contato" id="contato">
+            <header class="cabecalho_contato">
+                <h2 class="titulo titulo_contato">Networking</h2>
+                <p class="descricao descricao_contato">Você pode me enviar um email ou conversar diretamente através das minhas redes.</p>
+             </header>
+            <div class="lista_rede">
+                <div class="item_rede">
+                    <a href="https://www.linkedin.com/in/perilojunior/" class="link" target="_blank" aria-label="Abrir Linkedin de Perilo">
+                        <i class="fa-brands fa-linkedin icon"></i> Linkedin
+                        <i class="fa-solid fa-check check"></i>
+                    </a>
+                </div>
+                <div class="item_rede">
+                    <a href="https://github.com/perilo815" class="link" target="_blank"  aria-label="Abrir Github de Perilo">
+                        <i class="fa-brands fa-github icon"></i> Github
+                        <i class="fa-solid fa-check check"></i>
+                    </a>
+                </div>
+                <div class="item_rede">
+                    <a href="https://www.instagram.com/perilojr/" class="link" target="_blank"  aria-label="Abrir Instagram de Perilo">
+                        <i class="fa-brands fa-instagram icon"></i> Instagram
+                        <i class="fa-solid fa-check check"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <a href="#principal" class="link"  aria-label="Voltar para o topo da página">
+            <button class="botao_topo"><i class="fa-solid fa-angles-up icone"></i>Voltar ao topo</button>
+        </a>
+    </main>
+    <footer class="footer">
+        <h2 class="titulo">Perilo Júnior © 2023</h2>
+    </footer>
+    <script src="https://kit.fontawesome.com/b4aee6e34b.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
